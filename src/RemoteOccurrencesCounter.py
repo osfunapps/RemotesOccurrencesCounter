@@ -26,7 +26,7 @@ for i in range(0, len(names) - 1):
             ocCount = occurrencesDict[names[i]]
             occurrencesDict[names[i]] = ocCount + 1
 
-for key, value in occurrencesDict.iteritems():
+for key, value in occurrencesDict.items():
     print (key, value)
 
 text_file = open("Remotes Occurrences.txt", "w")
